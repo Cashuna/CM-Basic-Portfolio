@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title style="font-family: cursive; vertical-align: center;">Student Bio</title>
+	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+	<link rel="stylesheet" type="text/css" href="asset/css/styles.css">
+	<title>About Cashuna</title>
 </head>
 <body>
-	<h1 style="font-family: cursive;">Cashuna's Bio</h1>
-	<h2>Your Web Developer in Test</h2>
-	<div style="width: 200px; height: 200px;">
-		<img src="asset/images/3490_lores.jpg">
-		<p>Writing my bio.</p>
+	<header>
+		<h1 class="namestyle">Cashuna Marshall</h1>
+		<table>
+			<tr>
+				<td><a href="about.html">About</a></td>
+				<td><a href="portfolio.html" target="_blank">Portfolio</a></td>
+				<td class="tborder"><a href="contact.html" target="_blank">Contact</a></td>
+			</tr>
+		</table>
+	</header>
+<div style="overflow: auto;">
+	<div class="aboutme bkgrnd" style="overflow: auto;">
+	<!-- This section contains bio that should flow around the image -->
+			<em>About Me</em>
+			<hr>
+			<p>
+			<img src="asset/images/3490_lores.jpg">
+			I love to tinker with and explore new concepts, which has prepared me for adapting quickly to fluid environments. In previous roles I've been tasked with creating framworks for test execution processes ranging from lab setup and requirement analysis, to defect tracking and incorporating new test basis into the test cycle. I enjoy being involved in the technical aspect, too as it keeps me in sync and abreast on challenges effecting the work flow. In my spare time I catch up with family and spend time reading, however, lately I've been working on networking skills. I'm persistent, and ver protective of my character, but these attributes enhance my dedication to quality in all aspects so its easy to manage. </p>
 	</div>
+	<!-- This section should sit to the right of the above div -->
+		<section style="overflow: auto;" class="connect bkgrnd">
+			<em>Connect with Me</em>
+			<hr>
+			<figure class="icon" href="#" alt="Stack Overflow"><figcaption>Stack Overflow</figcaption>
+			</figure>
+			<figure class="icon" href="#" alt="Portfolio"><figcaption>Portfolio</figcaption>
+			</figure>
+			<figure class="icon" src="asset/images/linkedin_box"><a href="https://www.linkedin.com/pub/cashuna-marshall-ctal-ta">View Cashuna Marshall - CTAL-TA's profile</a>
+			</figure>
+		</section>
+</div>
+<hr class="justaline">
+<!-- This is the footer -->
+	<footer><br>
+		<small>&copy;Copyright 2017 Cashuna Marshall</small>
+	</footer>
 </body>
 </html>
