@@ -1,33 +1,58 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<!--script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script -->
 	<link rel="stylesheet" type="text/css" href="asset/css/styles.css">
 	<title>Send A Message</title>
 </head>
 <body>
 	<header>
-		Cashuna Marshall
+	<!-- Only Portfolio opens a new page -->
+		<h1 class="namestyle">Cashuna Marshall</h1>
 		<table>
 			<tr>
-				<td><a href="Student_Bio.html" target="_blank">Bio</a></td>
+				<td><a href="Student_Bio.html">About</a></td>
 				<td><a href="portfolio.html" target="_blank">Portfolio</a></td>
-				<td class="tborder"><a href="contact.html">Contact</a></td>
+				<td class="tborder"><a href="#header">Contact</a></td>
 			</tr>
 		</table>
 	</header>
-		<form>
-			Your name:<br>
-			<input type="text" name="yourname"><br>
-			Subject:<br>
-			<input type="text" name="subject"><br>
-			Send a message:<br>
-			<textarea></textarea><br>
-			<button type="submit"><a href="mailto:cmarshallqa@gmail.com?subject=Let's%20Talk%20More:%20Viewed%20Your%20Portfolio&body=I'd%20like%20more%20information.%0AThank%20You,">E-mail me </a></button>
-		</form>
-	<footer>
-	<br>
-			<small>&copy;Copyright 2017 Cashuna Marshall</small>
+
+	<!-- The following parent contains two children elements about me and connect -->
+	<div style="overflow: auto;">
+	
+		<!-- This div contains the form -->
+		<div class="aboutme bkgrnd" style="overflow: auto;">
+			<form>
+				Your name:<br>
+				<input style="width: 25em;" type="text" name="yourname">
+				<br>
+				Subject:
+				<br>
+				<input style="width: 25em;" type="text" name="subject">
+				<br>
+				Send a message:<br>
+				<textarea style="width: 25em; height: 20em;"></textarea><br>
+				<!-- Find Out: use input from the above form and inserted into the button code below. -->
+				<button type="submit"><a href="mailto:cmarshallqa@gmail.com?subject=Let's%20Talk%20More:%20Viewed%20Your%20Portfolio&body=I'd%20like%20more%20information.%0AThank%20You,">E-mail me </a></button>
+			</form>
+		</div>
+		<!-- This section should sit to the right of the above div -->
+		<section style="overflow: auto;" class="connect bkgrnd">
+			<br>
+			<em>Connect Using:</em>
+			<hr>
+			<img class="icon" src="asset/images/stackoverflow.icns" alt="Stack Overflow"><a href="https://stackoverflow.com"></a>
+			<img class="icon" src="asset/images/github.icns" alt="Portfolio"><a href="https://github.com/Cashuna/CM-Basic-Portfolio.git"></a>
+			<img class="icon" src="asset/images/linkedin_box.icns"><a href="https://www.linkedin.com/pub/cashuna-marshall-ctal-ta"></a>
+			<span style="float: left; margin-left: 1em;">Links curentlly unavailable.</span>
+		</section>
+	</div>
+	<hr class="justaline">
+	<!-- This is the footer -->
+	<footer><br>
+		<small>&copy;Copyright 2017 Cashuna Marshall</small>
 	</footer>
 </body>
 </html>
