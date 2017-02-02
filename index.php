@@ -1,1 +1,1 @@
-<?php include_once("Student_bio.html"); ?>
+<?php include_once("Student_Bio.html"); ?>
