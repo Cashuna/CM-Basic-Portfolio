@@ -25,8 +25,8 @@ table { border-collapse: collapse; border-spacing: 0;}
 	margin: 0 3em 5em 3em;
  }
 
- div, section {
-	background: #888;
+ div, section{
+	background: url("../images/bkimage.png");
 	border-radius: 15px 15px 0 0;
 	border-top: 4px solid #cccccc;
 	overflow: auto;
@@ -62,6 +62,7 @@ form {
 	padding: none;
 	margin: 10px 0 0 115px;
 }
+
 /* End of general element styling */
 
 /* Header content styling begins
