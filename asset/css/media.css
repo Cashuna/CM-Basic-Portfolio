@@ -1,0 +1,7 @@
+@media only screen and (orientation),  only screen and (max-resolution) {
+	
+	/* General element styling */
+	 .aboutme, .connect {
+		width: 50%;
+	 }
+}
