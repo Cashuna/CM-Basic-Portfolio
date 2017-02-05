@@ -1,7 +1,81 @@
-@media only screen and (orientation),  only screen and (max-resolution) {
-	
-	/* General element styling */
-	 .aboutme, .connect {
-		width: 50%;
-	 }
+@media screen and (max-width: 1024px) {
+ 
+ div {
+ 	padding-bottom: 5em;
+ }
+ .connect { /* section placement */
+	width: 520px;
+	margin: 40px 0 0 180px;
+	border-radius: 10px;
+	}
+ .aboutme { /* content and div placement */
+	width: 520px;
+	height: 400px;
+	padding-bottom: none;
+	}
+
+ .icon {
+ 	width: 110px;
+ 	margin: 1.5em;
+ }
+} 
+/*End of 1024 query*/
+
+@media screen and (max-width: 768px) {
+ .connect { /* section placement */
+	width: 520px;
+	margin-left: 60px;
+	border-radius: 10px;
+ }
+
+ .aboutme, .namestyle {
+ 	margin-left: 40px;
+ }
+
 }
+/*End of 768 query*/
+
+@media screen and (max-width: 414px) {
+ 
+ p {
+ 	height: 30px;
+ }
+
+ div {
+ 	float: left;
+ }
+
+ nav {
+ 	float: left;
+ 	padding-left: 15px;
+ }
+
+ .divider {
+ 	width: 78%;
+ }
+
+ .namestyle {
+ 	margin-left: 20px;
+ }
+ .connect { /* section placement */
+	width: 285px;
+	margin-left: 20px;
+	border-radius: 10px;
+ }
+ .aboutme { /* content and div placement */
+	width: 285px;
+	height: 250px;
+	margin-bottom: 100px;
+	margin-left: 20px;
+	padding-bottom: none;
+ }
+
+ .icon {
+ 	width: 40px;
+ }
+
+ footer {
+ 	overflow: auto;
+ }
+}
+
