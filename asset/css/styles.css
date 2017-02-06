@@ -22,7 +22,7 @@ table { border-collapse: collapse; border-spacing: 0;}
  }
 
  body {
-	margin: 0 5em 5em 5em;
+	margin: 0 5em 1em 5em;
  }
 
  div, section{
@@ -112,7 +112,7 @@ h1 styling of name in the header */
 /* About me div */
 .aboutme { /* content and div placement */
 	width: 513px;
-	margin: 40px 0 155px 100px;
+	margin: 40px 0 75px 100px;
 	float: left;
 	font-size: 14pt;
 	border-radius: 10px;

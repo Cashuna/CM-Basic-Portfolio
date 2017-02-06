@@ -32,62 +32,28 @@
 } 
 /*End of 1024 query*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
+ 
+ h1{
+ 	margin-left: 60px;
+ }
  .connect { /* section placement */
-	width: 520px;
-	margin-left: 60px;
+	width: 510px;
+	margin-left: 45px;
 	border-radius: 10px;
  }
 
  .aboutme, .namestyle {
- 	margin-left: 40px;
+ 	margin-left: 30px;
  }
 
  nav {
  	float: left;
- 	padding-right: 15px;
+ 	padding-left: 30px;
  }
 
 }
 /*End of 768 query*/
-
-@media screen and (max-width: 750px) {
-
- body {
- 	margin-left: 2em;
- }
-
- p {
- 	height: 40px;
- }
-
- nav {
- 	float: left;
- 	padding-left: 85px;
- }
-
-  .aboutme, .connect { /* section placement */
-	margin-left: 100px;
-	border-radius: 10px;
-	height: 300px;
- }
-
- .namestyle {
- 	margin-left: 10px;
- }
-
- .icon {
- 	width: 60px;
- 	height: 60px;
- 	margin: 1em;
- }
-
- .divider {
- 	width: 80%;
- }
-
-}
-/*End of 750 query iphone 7*/
 
 @media screen and (max-width: 763px) {
 
@@ -131,7 +97,54 @@
 }
 /*End of 667 query iphone 6S and plus*/
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 750px) {
+
+ body {
+ 	margin-left: 2em;
+ }
+
+ header {
+ 	min-height: 135px;
+ }
+
+ p {
+ 	height: 40px;
+ }
+
+ nav {
+ 	float: left;
+ 	padding-left: 100px;
+ }
+
+  .aboutme, .connect { /* section placement */
+	margin-left: 100px;
+	border-radius: 10px;
+	height: 300px;
+	width: 413px;
+ }
+
+ .namestyle {
+ 	margin-left: 20px;
+ }
+
+ .abt, .folio, .contact {
+ 	margin: 10px 7px 0 0;
+ }
+
+ .icon {
+ 	width: 60px;
+ 	height: 60px;
+ 	margin: 1em;
+ }
+
+ .divider {
+ 	width: 80%;
+ }
+
+}
+/*End of 750 query iphone 7*/
+
+@media screen and (max-width: 668px) {
 
  body {
  	margin-left: 2em;
@@ -143,7 +156,11 @@
 
  nav {
  	float: left;
- 	padding-left: 17px;
+ 	padding-left: 10px;
+ }
+
+ header {
+ 	min-height: 135px;
  }
 
   .aboutme { /* section placement */
@@ -174,10 +191,14 @@
  	width: 80%;
  }
 
+ .abt, .folio, .contact {
+ 	margin: 10px 10px 0 0;
+ }
+
 }
 /*End of 568 query iphone 5SE*/
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 439px) {
  
  p {
  	height: 30px;
