@@ -1,10 +1,15 @@
 @media screen and (max-width: 1024px) {
  
  div {
- 	padding-bottom: 5em;
+ 	padding-bottom: 4em;
  }
 
-.namestyle {
+ p {
+ 	height: 23px;
+ }
+ 
+
+ .namestyle {
 	margin-left: 180px;
 }
 
@@ -14,8 +19,8 @@
 	border-radius: 10px;
 	}
  .aboutme { /* content and div placement */
-	width: 520px;
-	height: 400px;
+	width: 550px;
+	height: 300px;
 	margin-left: 180px;
 	padding-bottom: none;
 	}
@@ -62,7 +67,7 @@
  }
 
   .aboutme, .connect { /* section placement */
-	margin-left: 10px;
+	margin-left: 100px;
 	border-radius: 10px;
 	height: 300px;
  }
@@ -84,6 +89,48 @@
 }
 /*End of 750 query iphone 7*/
 
+@media screen and (max-width: 763px) {
+
+ p {
+ 	height: 20px;
+ }
+
+
+ nav {
+ 	float: left;
+ 	padding-left: 17px;
+ }
+
+  .aboutme { /* section placement */
+	margin-left: 10px;
+	border-radius: 10px;
+	height: 300px;
+	width: 420px;
+ }
+
+ .connect { /* section placement */
+	margin-left: 10px;
+	border-radius: 10px;
+	height: 180px;
+	width: 420px;
+ }
+ .namestyle {
+ 	margin-left: 10px;
+ }
+
+ .icon {
+ 	width: 60px;
+ 	height: 60px;
+ 	margin: 1em;
+ }
+
+ .divider {
+ 	width: 80%;
+ }
+
+}
+/*End of 667 query iphone 6S and plus*/
+
 @media screen and (max-width: 568px) {
 
  body {
@@ -91,7 +138,7 @@
  }
 
  p {
- 	height: 40px;
+ 	height: 20px;
  }
 
  nav {
@@ -99,10 +146,17 @@
  	padding-left: 17px;
  }
 
-  .aboutme, .connect { /* section placement */
+  .aboutme { /* section placement */
 	margin-left: 10px;
 	border-radius: 10px;
 	height: 300px;
+	width: 420px;
+ }
+
+ .connect { /* section placement */
+	margin-left: 10px;
+	border-radius: 10px;
+	height: 180px;
 	width: 420px;
  }
 
