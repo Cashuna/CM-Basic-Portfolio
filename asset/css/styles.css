@@ -22,7 +22,7 @@ table { border-collapse: collapse; border-spacing: 0;}
  }
 
  body {
-	margin: 0 3em 5em 3em;
+	margin: 0 5em 5em 5em;
  }
 
  div, section{
@@ -56,7 +56,7 @@ form {
 
 nav {
 	float: right;
-	padding-right: 45px;
+	padding-right: 125px;
 }
 
 li {
@@ -76,7 +76,7 @@ h1 styling of name in the header */
 	width: 200px;
 	height: 85px;
 	font-size: 32pt;
-	margin-left: 180px;
+	margin-left: 100px;
 	text-align: center;
 	float: left;
 	color: #ffffff;
@@ -112,7 +112,7 @@ h1 styling of name in the header */
 /* About me div */
 .aboutme { /* content and div placement */
 	width: 513px;
-	margin: 40px 0 155px 180px;
+	margin: 40px 0 155px 100px;
 	float: left;
 	font-size: 14pt;
 	border-radius: 10px;
@@ -133,7 +133,7 @@ h1 styling of name in the header */
 	float: left;
 	width: 380px;
 	height: 200px;
-	margin: 40px 0 0 120px;
+	margin: 40px 0 0 145px;
 	border-radius: 10px;
  }
 
