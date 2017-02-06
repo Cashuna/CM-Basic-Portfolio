@@ -198,7 +198,7 @@
 }
 /*End of 568 query iphone 5SE*/
 
-@media screen and (max-width: 439px) {
+@media screen and (max-width: 414px) {
  
  p {
  	height: 30px;
@@ -235,6 +235,55 @@
  .icon {
  	width: 40px;
  	height: 80px;
+ }
+
+ footer {
+ 	overflow: auto;
+ }
+
+/* portrait mode for 5SE */
+ @media screen and (max-width: 375px) {
+ 
+ p {
+ 	height: 20px;
+ }
+
+ div {
+ 	float: left;
+ }
+
+ nav {
+ 	padding-left: 5px;
+ 	padding-right: 0;
+ }
+
+  .namestyle {
+ 	margin-left: 5px;
+ }
+
+ .divider {
+ 	width: 75%;
+ }
+
+ .connect { /* section placement */
+	width: 190px;
+	height: 150px;
+	border-radius: 10px;
+ }
+ .aboutme { /* content and div placement */
+	width: 185px;
+	height: 250px;
+	margin-bottom: 100px;
+	padding-bottom: none;
+ }
+
+ .icon {
+ 	width: 20px;
+ 	height: 60px;
+ }
+
+ .abt, .folio, .contact {
+ 	margin: 5px 7px 0 0;
  }
 
  footer {
